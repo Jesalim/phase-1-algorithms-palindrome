@@ -38,5 +38,5 @@ if (require.main === module) {
   console.log("=>", isPalindrome("robot"));
 }
 
-export default isPalindrome;
+module.exports = isPalindrome;
 console.log(isPalindrome('racecar'))
